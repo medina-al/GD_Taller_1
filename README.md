@@ -99,12 +99,19 @@ Para este dataset se encuentran las siguientes características:
 
 ### Lesiones personales y accidentes de tránsito
 
-#### Top 3
+#### Top 3  
+
+Cundinamarca (5,90%), Antioquia (5,63%) y Valle (4,74%) presentan en los últimos 5 años la mayor cantidad de delitos por lesiones personales y accidentes de tránsito. Como es de esperarse, las ciudades con un número mayor de habitantes presentan más este tipo de delito.
+
+
 #### Arma o medio más común
 
 Se evidencia que el medio más común en el caso de accidentes de tránsito son vehículos automotores, seguidos por motocicletas con 34319 y 18230 casos respectivamente.
 
-#### Proporción por género y grupo etario
+#### Proporción por género y grupo etario  
+
+Pendiente
+
 #### Tendencia de delitos por mes
 
 Gráficamente se evidencia que los meses en los que más casos se presentan son en enero y diciembre sin embargo, no se puede decir que hay una tendencia claro en esos meses, ya que otros como marzo y octubre se acercan bastante, y la desviación estándar de todos los meses es de 326.78 , un dato bastante bajo teniendo en cuenta que son más de 59000 registros.
@@ -115,7 +122,10 @@ Hay dos descripciones y una representa más del 99% de los datos (Artículo 109.
 
 ### Delitos sexuales
 
-#### Top 3
+#### Top 3  
+
+Cundinamarca (11,26%), Antioquia (7,28%) y Valle (4,65%) presentan en los últimos 5 años la mayor cantidad de delitos sexuales registrados. Como es de esperarse, las ciudades con un número mayor de habitantes presenta mas robos.
+
 #### Arma o medio más común
 
 Se evidencia que la mayoría de casos se dieron sin el uso de armas con 114948, siendo casi 2.7 veces, respecto al uso de armas contundentes (43712)
@@ -131,15 +141,22 @@ Las descripciones de delitos más comunes para este caso son: ARTÍCULO 209. ACT
 
 ### Hurto comercial y de viviendas
 
-#### Top 3
+#### Top 3  
+
+Cundinamarca (31,02%), Antioquia (13,19%) y Valle (8,76%) presentan en los últimos 5 años la mayor cantidad de delitos registrados en  hurtos cometidos a viviendas y comercio. Como es de esperarse, las ciudades con un número mayor de habitantes presenta mas robos.
+
 #### Arma o medio más común
 
-Se evidencia que al igual que en delitos sexuales en el hurto a comercios y residencias, no emplear armas es el medio más común (220069), seguido por poco más de la mitad de casos, el uso de armas contundentes (127567).
+Se evidencia que al igual que en delitos sexuales en el hurto a comercios y residencias, no emplear armas es el medio más común (220069), seguido por poco más de la mitad de casos, el uso de armas contundentes (127567). 
 
-#### Proporción por género y grupo etario
+#### Proporción por género y grupo etario  
+
+Pendiente
+
+
 #### Tendencia de delitos por mes
 
-En un total de 492963 datos con una desviación estándar entre los datos de casos por mes de ocurrencia de 3336,72 se evidencia que no hay una tendencia clara para este tipo de delitos, aunque en el mes de enero es cuando más se presentan estos casos, pero sin marcar una gran diferencia
+En un total de 492963 datos con una desviación estándar entre los datos de casos por mes de ocurrencia de 3336,72 se evidencia que no hay una tendencia clara para este tipo de delitos, aunque en el mes de enero es cuando más se presentan estos casos, pero sin marcar una gran diferencia. Por último, se puede inferir que de agruparlos tres primeros meses representan el 27,91% del total de hurtos cometidos, cabe resaltar que es la epoca en la que mucha gente sale de vacaciones.
 
 #### Descripciones más comunes
 
@@ -147,7 +164,10 @@ Se presentan dos tipos de delitos que son a comercios y a residencias, siendo el
 
 ### Hurto a motocicletas y automotores
 
-#### Top 3
+#### Top 3  
+
+Cundinamarca (20,94%), Antioquia (20,40%) y Valle (14,14%) presentan en los últimos 5 años la mayor cantidad de delitos registrados a automotores y motocicletas. Como es de esperarse, las ciudades con un número mayor de habitantes presenta mas robos.
+
 #### Arma o medio más común
 
 Gráficamente se evidencia claramente que 3 armas o medios son los más comunes en este tipo de delitos siendo los siguientes los más comunes:
@@ -155,14 +175,18 @@ Gráficamente se evidencia claramente que 3 armas o medios son los más comunes 
 - Arma de fuedo (2)
 - Sin empledo de armas (3)
 
-#### Proporción por género y grupo etario
+#### Proporción por género y grupo etario  
+
+pendiente  
+
+
 #### Tendencia de delitos por mes
 
-Se evidencia una uniformidad en los datos de los casos por mes con una desviación estándar de 1268,23 contra un total de 276804 casos. No hay un mes con grandes picos o diferencias respecto a los demás.
+Se evidencia una uniformidad en los datos de los casos por mes con una desviación estándar de 1268,23 contra un total de 276804 casos. No hay un mes con grandes picos o diferencias respecto a los demás. Por último, se refleja que la mayor cantidad de hurtos cometidos a automóviles y motocicletas son realizados en los tres primeros meses representando el 26,94% de los hurtos registrados. Cabe mencionar que es una temporada usual en el que se incrementan los robos debido a la mayoría de visitantes a diferentes lugares de Colombia pues es una fecha usual en la que la mayoría se encuentra en vacaciones.
 
 #### Descripciones más comunes
 
-Se presentan dos tipos de casos, primero de hurto a automóviles, y segundo de hurto a motocicletas, siendo este último el de mayor ocurrencia con un 75.7% del total de los casos
+Se presentan dos tipos de casos, primero de hurto a automóviles, y segundo de hurto a motocicletas, siendo este último el de mayor ocurrencia con un 75.7% del total de los casos, Es evidente que hay una mayor facilidad de llevarse la motocicleta con una llave maestra por el tipo de medio de transporte y los lugares de parqueo no son muy seguros.
 
 ## 3 Análisis de delitos últimos 5 años
 
