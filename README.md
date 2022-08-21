@@ -97,17 +97,91 @@ Para este dataset se encuentran las siguientes características:
 
 ## 2 Preguntas por dataset
 
+### Lesiones personales y accidentes de tránsito
+
+#### Top 3
+#### Arma o medio más común
+
+Se evidencia que el medio más común en el caso de accidentes de tránsito son vehículos automotores, seguidos por motocicletas con 34319 y 18230 casos respectivamente.
+
+#### Proporción por género y grupo etario
+#### Tendencia de delitos por mes
+
+Gráficamente se evidencia que los meses en los que más casos se presentan son en enero y diciembre sin embargo, no se puede decir que hay una tendencia claro en esos meses, ya que otros como marzo y octubre se acercan bastante, y la desviación estándar de todos los meses es de 326.78 , un dato bastante bajo teniendo en cuenta que son más de 59000 registros.
+
+#### Descripciones más comunes
+
+Hay dos descripciones y una representa más del 99% de los datos (Artículo 109. Homicidio culposo en accidente de tránsito) vs menos del 1% (Artículo 110 Homicidio culposo, circunstancias de agravación)
+
 ### Delitos sexuales
 
-### Lesiones personales y accidentes de tránsito
+#### Top 3
+#### Arma o medio más común
+
+Se evidencia que la mayoría de casos se dieron sin el uso de armas con 114948, siendo casi 2.7 veces, respecto al uso de armas contundentes (43712)
+
+#### Proporción por género y grupo etario
+#### Tendencia de delitos por mes
+
+Gráficamente se evidencia que no hay una tendencia definida por mes para estos casos, sin embargo, si es notable que en diciembre es evidente una reducción en los casos, pero no es significativa en general, ya que la desviación estándar entre meses es de 2261,3 en un total de 241739.
+
+#### Descripciones más comunes
+
+Las descripciones de delitos más comunes para este caso son: ARTÍCULO 209. ACTOS SEXUALES CON MENOR DE 14 AÑOS y ARTÍCULO 208. ACCESO CARNAL ABUSIVO CON MENOR DE 14 AÑOS, entre ambos representando más del 60% de los casos totales
 
 ### Hurto comercial y de viviendas
 
+#### Top 3
+#### Arma o medio más común
+
+Se evidencia que al igual que en delitos sexuales en el hurto a comercios y residencias, no emplear armas es el medio más común (220069), seguido por poco más de la mitad de casos, el uso de armas contundentes (127567).
+
+#### Proporción por género y grupo etario
+#### Tendencia de delitos por mes
+
+En un total de 492963 datos con una desviación estándar entre los datos de casos por mes de ocurrencia de 3336,72 se evidencia que no hay una tendencia clara para este tipo de delitos, aunque en el mes de enero es cuando más se presentan estos casos, pero sin marcar una gran diferencia
+
+#### Descripciones más comunes
+
+Se presentan dos tipos de delitos que son a comercios y a residencias, siendo el segundo el más común con un 55,9% de los casos.
+
 ### Hurto a motocicletas y automotores
+
+#### Top 3
+#### Arma o medio más común
+
+Gráficamente se evidencia claramente que 3 armas o medios son los más comunes en este tipo de delitos siendo los siguientes los más comunes:
+- Llave maestra (1)
+- Arma de fuedo (2)
+- Sin empledo de armas (3)
+
+#### Proporción por género y grupo etario
+#### Tendencia de delitos por mes
+
+Se evidencia una uniformidad en los datos de los casos por mes con una desviación estándar de 1268,23 contra un total de 276804 casos. No hay un mes con grandes picos o diferencias respecto a los demás.
+
+#### Descripciones más comunes
+
+Se presentan dos tipos de casos, primero de hurto a automóviles, y segundo de hurto a motocicletas, siendo este último el de mayor ocurrencia con un 75.7% del total de los casos
 
 ## 3 Análisis de delitos últimos 5 años
 
 ## 4 Integración de datasets y análisis de delitos
+
+En este ítem se realizaron los siguientes pasos:
+- Cargar cada uno de los documentos ya depurados en el punto 1
+- Organizar y renombrar las columnas para que fueran homogeneas en cada dataset
+- Unificar en un solo dataframe todos los datasets
+- Validar los datos de nombres de municipios que podían referirse al mismo pero tenían alguna diferencia
+- Cargar el archivo que contenía los habitantes de cada municipio para el año 2022
+- Filtrar solo los municipios con más de un millón de habitantes
+- Dejar solo los datos correspondientes a los municipios filtrados en el dataset original
+- Agrupar por departamento, municipio y código DANE, los datos realizando una operación de suma del campo de cantidad de casos, y el resultado almacenarlo en un nuevo dataframe
+- Sobre el nuevo Dataframe añadir una nueva columna con la cantidad de habitantes del municipio correspondiente
+- Calcular la cantidad de casos per capita por cada 100.000 habitantes
+- Graficar los resultados
+
+Finalmente se evidencia que son 5 municipios, en realidad ciudades, las que aplican al cálculo final con una media de 3328 casos por cada 100.000 habitantes. En la gráfica final se puede ver el detalle de cada uno de estos
 
 ## 5 URL del video
 
