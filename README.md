@@ -191,6 +191,8 @@ Se presentan dos tipos de casos, primero de hurto a automóviles, y segundo de h
 
 ## 3 Análisis de delitos últimos 5 años
 
+Según el gráfico anterior se puede observar que los departamentos con mayor hurtos de motocicletas y automóviles se da en las grandes cuidades como los es Cundinamarca, Antioquia, Valle, Cauca y Atlántico pero realizando la transformación percapita, se evidencia que aunque en Cundinamarca se presenta inicialmente la mayor cantidad de hurtos comparado frente a la cantidad de habitantes que presenta el número de hurtos presentados es menor, mientras que Cauca presenta un mayor índice de robo pese a que su número de habitantes es muy pequeño.
+
 ## 4 Integración de datasets y análisis de delitos
 
 En este ítem se realizaron los siguientes pasos:
