@@ -110,7 +110,7 @@ Se evidencia que el medio más común en el caso de accidentes de tránsito son 
 
 #### Proporción por género y grupo etario  
 
-Pendiente
+Como lo muestra la gráfica anterior, se puede observar que los hombres son aquellos que reciben una mayor cantidad de accidentes de tránsito y como es de esperarse se encuentran dentro del grupo etario de adultos.
 
 #### Tendencia de delitos por mes
 
@@ -130,7 +130,10 @@ Cundinamarca (11,26%), Antioquia (7,28%) y Valle (4,65%) presentan en los últim
 
 Se evidencia que la mayoría de casos se dieron sin el uso de armas con 114948, siendo casi 2.7 veces, respecto al uso de armas contundentes (43712)
 
-#### Proporción por género y grupo etario
+#### Proporción por género y grupo etario  
+
+Como es de esperarse, la mayor cantidad de delitos sexuales cometidos son hacia las mujeres representando un pico alto de incidencias a lo largo de los años. En este caso, el grupo etario con mayor cantidad de delitos sexuales son las menores de edad.
+
 #### Tendencia de delitos por mes
 
 Gráficamente se evidencia que no hay una tendencia definida por mes para estos casos, sin embargo, si es notable que en diciembre es evidente una reducción en los casos, pero no es significativa en general, ya que la desviación estándar entre meses es de 2261,3 en un total de 241739.
@@ -151,8 +154,7 @@ Se evidencia que al igual que en delitos sexuales en el hurto a comercios y resi
 
 #### Proporción por género y grupo etario  
 
-Pendiente
-
+Se puede evidenciar que entre el 2017 y 2019 se presenta la mayor cantidad de hurtos a comercios y viviendas en los que no se especifica el género ni el grupo etario a la que pertence la persona agredida.
 
 #### Tendencia de delitos por mes
 
@@ -177,8 +179,7 @@ Gráficamente se evidencia claramente que 3 armas o medios son los más comunes 
 
 #### Proporción por género y grupo etario  
 
-pendiente  
-
+Como se puede observar en la gráfica anterior no hay alguna discriminación por género o grupo etario, lo que hace díficil realizar una interpretación puntual por dichas características, sin embargo, se puede observar que la mayoría de hurtos a motos y autos se realizaron durante el 2019 oscilando a los mil husrtos de más según el año que le precede.
 
 #### Tendencia de delitos por mes
 
